@@ -1,0 +1,40 @@
+.whatsapp-btn {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    bottom: 9rem;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    right: 25px;
+    text-align: center;
+    transition: .5s ease-in-out;
+    width: 62px;
+    height: 62px;
+    z-index: 9999;
+  
+    /* font-size: 2rem !important; */
+    -webkit-box-shadow: 0px 5px 10px 3px rgb(0 0 0 / .28);
+    -moz-box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, .28);
+    box-shadow: 0px 5px 10px 3px rgb(0 0 0 / .28);
+  }
+  
+  .Buttons a {
+    font-size: 3.25rem !important;
+  }
+  
+  .wppButton {
+    transition: ease-in-out .5s;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(32deg) brightness(102%) contrast(101%);
+  }
+  
+  
+  @media screen and (max-width: 390px) {
+    .whatsapp-btn {
+      width: 45px;
+      height: 45px;
+    }  
+    .Buttons a {
+      font-size: 2rem !important;
+    }
+  }
+  

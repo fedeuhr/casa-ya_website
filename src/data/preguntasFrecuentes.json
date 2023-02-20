@@ -1,0 +1,38 @@
+[
+  {
+    "pregunta": "¿Cómo puedo comprar mi casa?",
+    "repuesta": "<p>Para comprar tu casa de forma rápida y segura: </p><ol class='preguntas-frecuentes__list-items'><li>Ingresá a nuestro sitio web www.casaya.com.ar</li><li>Mirá nuestros modelos <strong>“Casa Pro”</strong> o <strong>“Casa Pack”</strong></li><li>Elegí la que más te guste</li><li>¡Consúltanos!</li></ol><p>Conseguí tu casa a un precio increíble. </p>"
+  },
+  {
+    "pregunta": "¿Qué necesito para comprar una casa?",
+    "repuesta": "<p>Para comprar una casa necesitas: </p><ol class='preguntas-frecuentes__list-items'><li>DNI (Documento Nacional de Identidad)</li><li>Un terreno con las escrituras de propiedad</li><li>La platea finalizada para construir la casa</li><li>Abonar la propiedad</li></ol>"
+  },
+  {
+    "pregunta": "¿Cómo puedo construir mi propia casa?",
+    "repuesta": "<p>Para construir tu casa se requiere contar con un terreno acorde a los m2 que se quiera construir. Se recomienda tener lista la platea de la vivienda.</p>"
+  },
+  {
+    "pregunta": "¿Están adheridos al procrear?",
+    "repuesta": "<p>Debido a nuestros modelos propios y método constructivo, NO estamos adheridos al plan PROCREAR.</p>"
+  },
+  {
+    "pregunta": "¿Qué tipo de construcción se utiliza para construir la casa?",
+    "repuesta": "<p>Para construir la casa utilizamos el método constructivo <strong>Wood Frame</strong>. Es un método donde se utiliza como base constructiva, tirantería de madera, donde luego se completa con placas OSB, lana de vidrio y capas de cemento.</p>"
+  },
+  {
+    "pregunta": "¿Qué es el Woodframe?",
+    "repuesta": "<p>El Wood Frame es un método de construcción en seco, que utiliza perfiles y placas estructurales de madera para crear casas.</p>"
+  },
+  {
+    "pregunta": "¿Cuáles son las ventajas del Wood Frame?",
+    "repuesta": "<p>El método Wood Frame posee las ventajas de: </p><ol class='preguntas-frecuentes__list-items'><li>Sustentabilidad</li><li>Tiempos de entrega rápidos</li><li>Confort termico y acustico</li><li>Fácil mantenimiento</li><li>Fácil mantenimiento</li><li>Fidelidad presupuestaria</li><li>Sin desperdicio de materiales</li></ol>"
+  },
+  {
+    "pregunta": "¿Qué es la construcción en seco?",
+    "repuesta": "<p>La construcción en seco es un método donde se utilizan <strong>materiales prefabricados</strong>, que se ensamblan hasta completar una edificación.</p>"
+  },
+  {
+    "pregunta": "¿Cuánto tiempo tarda en construirse una casa con Wood Frame?",
+    "repuesta": "<p>Con el sistema constructivo Wood Frame, se puede terminar una casa a partir de 45 días.</p>"
+  }
+]

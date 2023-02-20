@@ -1,0 +1,17 @@
+[
+  {
+    "source": "/slider/1_Banner_Presentación.mp4",
+    "sourceMobile": "/slider/1_Banner_Presentación_Mobile.mp4",
+    "url": "/contacto"
+  },
+  {
+    "source": "/slider/2_Banner_Líneas.mp4",
+    "sourceMobile": "/slider/2_Banner_Líneas_Mobile.mp4",
+    "url": "/"
+  },
+  {
+    "source": "/slider/3_Banner_Fábrica.mp4",
+    "sourceMobile": "/slider/3_Banner_Fábrica_Mobile.mp4",
+    "url": "/contacto"
+  }
+]

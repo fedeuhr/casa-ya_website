@@ -1,0 +1,113 @@
+.menu-items {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  position: relative;
+  text-decoration: none;
+}
+
+.menu-items-font {
+  font-size: 1.8rem;
+}
+
+.sub-menu-font {
+  font-size: 1.4rem;
+}
+  
+.menu-items a {
+  display: block;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+.menu-items button {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  display: flex;
+  font-family: inter;
+  font-size: inherit;
+  font-weight: 400;
+  width: 100%;
+}
+
+.menu-items-dropdown {
+  font-size: 1.8rem;
+  font-weight: 400;
+  list-style-image: url("../../house.svg");
+  margin-bottom: 2rem;
+  position: relative;
+  text-decoration: none;
+}
+
+.menu-items-active {
+  color: rgba(255, 255, 255, 1);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  text-shadow:0px 0px 20px #ffffff;
+}
+
+.menu-items-inactive {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.menu-items-dropdown button {
+  all: unset;
+  color: white;
+  width: 5rem;
+}
+
+button span {
+  margin-left: 1rem;
+}
+
+.arrow-align {
+  display: flex;
+}
+
+.menu-items > a, .menu-items button {
+  padding: 0.7rem 1rem;
+  text-align: left;
+  transition: all .3s ease-in-out;
+}
+
+.menu-items a:hover,
+.menu-items button:hover {
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  color: white;
+  text-shadow:0px 0px 20px #ffffff;
+}
+
+.drop-arrow {
+  color: rgba(255, 255, 255, 0.6);
+  transition: all .25s ease-in-out;
+}
+
+.disable {
+  display: none;
+  pointer-events: none;
+}
+
+.menu-items:hover .drop-arrow {
+  color: white;
+  transform: rotateZ(90deg);
+}
+
+.menu-items--active {
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-decoration: none;
+  transition: .3s;
+}
+
+@media screen and (max-width: 1250px) {
+  .menu-items {
+    font-size: 1.6rem;
+  }
+}

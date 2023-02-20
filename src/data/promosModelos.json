@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "titulo": "<p>La casa <br /><strong>del millón</strong></p>",
+    "placeholder": "La casa del millón",
+    "cantidadDePlantas": 1,
+    "porcentajeDeEntrega": 1,
+    "cantidadDeCuotas": 1,
+    "detalle": "",
+    "precio": 1000000,
+    "ambientes": {
+      "cantidadDeDormitorios": "A elección",
+      "cantidadDeBanos": 1,
+      "pergola": false
+    },
+    "superficies": {
+      "superficieCubierta": 35,
+      "superficieSemicubierta": null
+    },
+    "fichaTecnica": [
+      {
+        "name": "Superficie total",
+        "valor": 35,
+        "placeholder": "35m²"
+      },
+      {
+        "name": "Superficie cubierta",
+        "valor": 35,
+        "placeholder": "35m²"
+      },
+      {
+        "name": "Superficie semicubierta",
+        "valor": 0,
+        "placeholder": "—"
+      },
+      {
+        "name": "Ambientes",
+        "valor": 0,
+        "placeholder": "A elección"
+      },
+      {
+        "name": "Dormitorios",
+        "valor": 0,
+        "placeholder": "A elección"
+      },
+      {
+        "name": "Baños",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Pérgola",
+        "valor": false,
+        "placeholder": "—"
+      }
+    ],
+    "descripcion": "¡Hacemos tu casa personalizada por tan solo 1 MILLÓN de pesos! Construí tu casa de 35m2 a tu gusto: una sala de estar para recibir a tus seres queridos, la cocina que siempre quisiste y las habitaciones soñadas para tu familia. ¡Construí YA por este precio imperdible!"
+  },
+  {
+    "id": 2,
+    "titulo": "<div class=\"text-tu-casa-propia\"><p>TU CASA PROPIA, TU </p><img src=\"/icons/Logo blanco.svg\" /></div>",
+    "placeholder": "Tu casa propia, tu Casa YA",
+    "cantidadDePlantas": 1,
+    "porcentajeDeEntrega": 1,
+    "cantidadDeCuotas": 1,
+    "detalle": "",
+    "precio": 700000,
+    "ambientes": {
+      "cantidadDeDormitorios": 1,
+      "cantidadDeBanos": 1,
+      "pergola": false
+    },
+    "superficies": {
+      "superficieCubierta": 25
+    },
+    "fichaTecnica": [
+      {
+        "name": "Superficie total",
+        "valor": 25,
+        "placeholder": "25m²"
+      },
+      {
+        "name": "Superficie cubierta",
+        "valor": 25,
+        "placeholder": "25m²"
+      },
+      {
+        "name": "Superficie semicubierta",
+        "valor": 0,
+        "placeholder": "—"
+      },
+      {
+        "name": "Ambientes",
+        "valor": 2,
+        "placeholder": "2"
+      },
+      {
+        "name": "Dormitorios",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Baños",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Pérgola",
+        "valor": false,
+        "placeholder": "—"
+      }
+    ],
+    "descripcion": "¿Sentís que lograr tu casa es una meta lejana de cumplir? ¡Hacela realidad HOY y construila por 700mil pesos! Si, leíste bien. Esta casa posee 25m2 que vas a poder distribuir de manera personalizada. Cuenta con 1 dormitorio, cocina-comedor y baño que vas a poder diseñar a tu gusto. Cumplí el sueño de tener tu casa propia."
+  },
+  {
+    "id": 3,
+    "titulo": "<div class=\"text-tres-por-uno\" style=\"display:flex;align-items:center;\"><p  class=\"text-tres-por-uno__leyenda\"><strong class=\"text-tres-por-uno__leyenda\">3X1 </strong>|</p><p class=\"text-tres-por-uno__leyenda2\">LLEVÁ <strong>TRES CASAS</strong><br /> AL PRECIO <strong>DE UNA</strong></p></div>",
+    "placeholder": "3X1",
+    "cantidadDePlantas": 1,
+    "porcentajeDeEntrega": 1,
+    "cantidadDeCuotas": 1,
+    "detalle": "*La disposición de los espacios es personalizable.",
+    "precio": 1899000,
+    "ambientes": {
+      "cantidadDeDormitorios": 1,
+      "cantidadDeBanos": 1,
+      "pergola": false
+    },
+    "superficies": {
+      "superficieCubierta": 56.46
+    },
+    "fichaTecnica": [
+      {
+        "name": "Superficie total",
+        "valor": 56.46,
+        "placeholder": "56,46m²"
+      },
+      {
+        "name": "Superficie de cada unidad",
+        "valor": 18.82,
+        "placeholder": "18,82m²"
+      },
+      {
+        "name": "Superficie semicubierta",
+        "valor": 45.7,
+        "placeholder": "45,70m²"
+      },
+      {
+        "name": "Ambientes de cada unidad",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Ambientes totales",
+        "valor": 3,
+        "placeholder": "3"
+      },
+      {
+        "name": "Dormitorios de cada unidad",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Dormitorios totales",
+        "valor": 3,
+        "placeholder": "3"
+      },
+      {
+        "name": "Baños de cada unidad",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Baños totales",
+        "valor": 3,
+        "placeholder": "3"
+      },
+      {
+        "name": "Pérgola",
+        "valor": false,
+        "placeholder": "—"
+      }
+    ],
+    "descripcion": "¡Tres casas al precio de 1! Pensá un proyecto, mudate con toda tu familia o elegí tu punto favorito del país y construí tu nuevo lugar favorito. Cada casa posee 20m2 con 1 dormitorio, cocina-comedor y baño que vas a poder diseñar y decorar como más te guste. Viví la vida que queres con tu nueva casa YA."
+  }
+]

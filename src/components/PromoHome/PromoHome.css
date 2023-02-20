@@ -1,0 +1,388 @@
+.contenedor-promohome-background {
+  background: url("/public/images/fondo-promos.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  position: relative;
+}
+
+.contenedor-promohome-background__contenedor-promohome {
+  background: rgba(2, 44, 68, 0.93);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-bottom: 6rem;
+}
+
+.contenedor-promohome-background__link {
+  text-decoration: none;
+}
+
+.contenedor-promohome-background__contenedor-promohome__header {
+  display: grid;
+  grid-template-rows: 18rem;
+  grid-template-columns: 48rem 65rem;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 5rem;
+  grid-column: 1/2;
+  margin-bottom: 3.6rem;
+}
+
+.contenedor-promohome-background__contenedor-promohome__header__titulo {
+  background-color: var(--promo-color);
+  color: #FFF;
+  height: 110%;
+  clip-path: polygon(0 1%, 1% 0, 0% 100%, 0% 100%);
+  transform: translate(-2%, -8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-promohome-background__contenedor-promohome__header__titulo--animated {
+  animation: promoHeader 1s ease;
+  clip-path: polygon(0 1%, 100% 0, 93% 100%, 0% 100%);
+}
+
+@keyframes promoHeader {
+  from {
+    clip-path: polygon(0 1%, 1% 0, 0% 100%, 0% 100%);
+  }
+
+  to {
+    clip-path: polygon(0 1%, 100% 0, 93% 100%, 0% 100%);
+  }
+}
+
+.contenedor-promohome-background__contenedor-promohome__header__titulo h1 {
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 8rem;
+}
+
+
+.contenedor-promohome-background__contenedor-promohome__header__leyenda p {
+  font-weight: 400;
+  font-size: 37.4375px;
+  line-height: 142%;
+  color: #FFFFFF;
+  grid-column: 2/3;
+  text-transform: uppercase;
+}
+
+.contenedor-promohome-background__contenedor-promohome__header__leyenda strong {
+  font-weight: 700;
+  font-size: 68.233px;
+  line-height: 113%;
+  color: #FFFFFF;
+}
+
+.contenedor-promohome-background__contenedor-promohome__info {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 7.6rem;
+  grid-template-rows: 100%;
+}
+
+.contenedor-promohome-background__contenedor-promohome__info figure {
+  grid-column: 1/2;
+}
+
+.contenedor-promohome-background__contenedor-promohome__info__descripcion {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-rows: 30% 35% auto;
+  height: 100%;
+}
+
+.contenedor-promohome-background__contenedor-promohome__info__descripcion p {
+  font-weight: 400;
+  font-size: 3.1rem;
+  line-height: 142%;
+  color: #FFFFFF;
+  align-self: flex-end;
+}
+
+.container-promo-home__precio {
+  width: 100%;
+}
+
+.container-promo-home__precio__text {
+  position: relative;
+  font-weight: 700;
+  font-size: clamp(5.4rem, 4vw, 7.6rem);
+  line-height: 7.5rem;
+  z-index: 2;
+  text-align: center;
+  color: #FFFFFF;
+  background: var(--promo-color);
+  width: 95%;
+  box-shadow: 11px -9px 0px 1px rgba(33, 192, 231, 1);
+  -webkit-box-shadow: 11px -9px 0px 1px rgba(33, 192, 231, 1);
+  -moz-box-shadow: 11px -9px 0px 1px rgba(33, 192, 231, 1);
+  margin-top: 2.4rem;
+  padding: 1.8rem 0;
+}
+
+.contenedor-promohome-background__contenedor-promohome__info__imagen {
+  box-shadow: -10px 10px 0px 1px rgba(33, 192, 231, 1);
+  -webkit-box-shadow: -10px 10px 0px 1px rgba(33, 192, 231, 1);
+  -moz-box-shadow: -10px 10px 0px 1px rgba(33, 192, 231, 1);
+  width: 100%;
+}
+
+.contenedor-promohome-background__contenedor-promohome__info__descripcion__calltoaction {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  width: 80%;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all .17s ease;
+}
+
+.contenedor-promohome-background__contenedor-promohome__info__descripcion__calltoaction:hover {
+  color: white;
+  text-shadow: 0px 0px 20px #ffffff;
+  transition: all .2s ease;
+}
+
+.contenedor-promohome-background__contenedor-promohome__info__descripcion__calltoaction img {
+  width: 3.3rem;
+  transform: translateY(0px) scale(1);
+  animation: callToAction 1.6s ease infinite;
+}
+
+.container-promo__gallery__header__leyenda {
+  justify-self: flex-start;
+}
+
+.contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tu-casa-propia {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  column-gap: 1.5rem;
+}
+
+.container-promo__gallery__header__leyenda .text-tu-casa-propia p {
+  font-size: 3rem;
+}
+
+.container-promo__gallery__header__leyenda .text-tu-casa-propia img {
+  width: 20.8rem;
+}
+
+@keyframes callToAction {
+  0% {
+    transform: translateX(0px) scale(1);
+  }
+
+  50% {
+    transform: translateX(10px) scale(1);
+  }
+
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+.contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tu-casa-propia p {
+  font-size: 4rem;
+}
+
+.contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tu-casa-propia img {
+  width: 20.8rem;
+}
+
+.contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tres-por-uno {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tres-por-uno .text-tres-por-uno__leyenda {
+  font-size: 12.9rem;
+}
+
+.contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tres-por-uno .text-tres-por-uno__leyenda2,
+.contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tres-por-uno .text-tres-por-uno__leyenda2 strong {
+  font-size: 3.9rem;
+  line-height: 142%;
+}
+
+@media screen and (max-width:1512px) {
+
+  .contenedor-promohome-background__contenedor-promohome__header {
+    grid-template-columns: clamp(37rem, 28vw, 65rem) 1fr;
+    grid-template-rows: clamp(12rem, 12vw, 18rem);
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tu-casa-propia {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tu-casa-propia p {
+    font-size: clamp(2.4rem, 2.8vw, 4.5rem);
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tu-casa-propia img {
+    width: clamp(16.5rem, 14vw, 20.8rem);
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tres-por-uno .text-tres-por-uno__leyenda {
+    font-size: clamp(8rem, 7vw, 12.9rem);
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tres-por-uno .text-tres-por-uno__leyenda2,
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tres-por-uno .text-tres-por-uno__leyenda2 strong {
+    font-size: clamp(2.3rem, 2vw, 3.9rem);
+    line-height: 142%;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__info__descripcion p {
+    font-size: clamp(2rem, 2vw, 3.1rem);
+  }
+
+  .container-promo-home__precio__text {
+    font-size: clamp(3rem, 3vw, 5.4rem);
+    white-space: nowrap;
+    padding: clamp(0rem, .4vw, 1.8rem) 2rem;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__info__descripcion__calltoaction {
+    width: 100%;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__titulo h1 {
+    font-size: clamp(4.2rem, 5vw, 8rem);
+  }
+
+}
+
+@media screen and (max-width:1024px) {
+  .contenedor-promohome-background {
+    grid-template-columns: 1fr;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header {
+    grid-template-columns: 1fr;
+    grid-template-rows: 10rem 0rem;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__titulo {
+    transform: translate(-5%, -45%);
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tu-casa-propia {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__info__descripcion {
+    grid-column: 1/2;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__info figure {
+    justify-self: center;
+    width: 100%;
+  }
+
+  .container-promo-home__precio {
+    justify-self: center;
+    margin-left: 0;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__titulo h1 {
+    font-size: 5.3rem;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda p {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 142%;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tu-casa-propia p {
+    font-size: clamp(1.6rem, 5vw, 2.4rem);
+  }
+
+
+
+  .container-promo-home__precio__text {
+    padding: 0;
+  }
+
+  .container-promo-home__precio span {
+    font-size: clamp(3.4rem, 11vw, 5.4rem);
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__info__descripcion p {
+    font-size: 2rem;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__info__descripcion__calltoaction {
+    margin-top: 5.2rem;
+    width: 100%;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__info__descripcion__calltoaction p {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 142%;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__info__descripcion__calltoaction img {
+    width: 2rem;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda p br {
+    display: none;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda p {
+    font-size: 3rem;
+    line-height: 113%;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda p strong {
+    font-size: 3rem;
+    line-height: 113%;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda img {
+    width: 10.2rem;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tu-casa-propia {
+    column-gap: .8rem;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tu-casa-propia img {
+    width: clamp(9rem, 22vw, 12rem);
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tres-por-uno {
+    column-gap: 10px;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tres-por-uno .text-tres-por-uno__leyenda {
+    font-size: 4.8rem;
+  }
+
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tres-por-uno .text-tres-por-uno__leyenda2,
+  .contenedor-promohome-background__contenedor-promohome__header__leyenda .text-tres-por-uno .text-tres-por-uno__leyenda2 strong {
+    font-size: 1.5rem;
+    line-height: 142%;
+    width: 42%;
+  }
+}

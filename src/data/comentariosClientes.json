@@ -1,0 +1,57 @@
+[
+  {
+    "cliente": "Lucas Montero",
+    "estrellas": 5,
+    "comentario": "Nunca pensé que iba a tener la posibilidad de tener mi casa propia, y hoy la comparto con toda mi familia. ¡Muy felices!"
+  },
+  {
+    "cliente": "María Peréz",
+    "estrellas": 5,
+    "comentario": "Compré mi casa y me llegó antes de lo que esperaba. Ya estoy viviendo en ella y me encanta!"
+  },
+  {
+    "cliente": "Lucia Romero",
+    "estrellas": 5,
+    "comentario": "Compré la Casa Pack para poder contruir mi primera casa. Nunca pensé que iba a ser tan fácil tener mi hogar."
+  },
+  {
+    "cliente": "Mariano Recondo",
+    "estrellas": 4,
+    "comentario": "Al principio demoraron en contestar mis mensajes, pero cuando se comunicaron supieron guiarme y ayudarme para hacer mi casa."
+  },
+  {
+    "cliente": "Gastón Maure",
+    "estrellas": 5,
+    "comentario": "Me recibieron muy bien, excelente trato y atención."
+  },
+  {
+    "cliente": "Stella Maris Echeverri",
+    "estrellas": 4,
+    "comentario": "Empezaron a construir a los 20 días que terminamos los trámites.  Luego de 1 mes terminaron la casa, muy satisfecho."
+  },
+  {
+    "cliente": "Isabel Rivarola",
+    "estrellas": 5,
+    "comentario": "Llegué a casaya por una publicidad. Se comunicaron conmigo y me explicaron cómo funcionaba. La verdad que muy bueno, la atención muy cálida. Ya están terminando mi casa😊"
+  },
+  {
+    "cliente": "Mauro Javier Arriola",
+    "estrellas": 3,
+    "comentario": "Se demoraron en comunicarse conmigo, pero cuando me contestaron pudieron asesorarse muy bien. Pronto me volveré a comunicar."
+  },
+  {
+    "cliente": "Yanina Montiel",
+    "estrellas": 5,
+    "comentario": "Para los que buscan una casita linda para vivir con los chicos tranquilos, la recomiendo. Yo elegí la moderna de 3 ambientes, muy linda."
+  },
+  {
+    "cliente": "Francisco Romero",
+    "estrellas": 5,
+    "comentario": "Había leído comentarios antes de comprar, y pedí muchos detalles sobre cómo iba a ser la construcción. La casa se terminó en tiempo y forma. Siempre fueron muy claros."
+  },
+  {
+    "cliente": "Walter Rodriguez",
+    "estrellas": 5,
+    "comentario": "Buscaba construir casas para alquilar. Terminaron en tiempo y forma, las casas quedaron muy bien. Me hicieron un buen precio por construir varias unidades."
+  }
+]

@@ -1,0 +1,17 @@
+.contenedor-layout {
+    width: 100%;
+    padding: 0 18vw;
+    /* margin-top: -4px; */
+}
+
+@media only screen and (max-width:1826px) {
+  .contenedor-layout {
+    padding: 0 10vw;
+  }
+}
+
+@media only screen and (max-width:1024px) {
+  .contenedor-layout {
+    padding: 0 4vw;
+  }
+}

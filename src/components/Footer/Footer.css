@@ -1,0 +1,108 @@
+.seccion1 {
+  background-color: #e0e0e0;
+}
+
+.footer_datos {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_encabezado {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.contacto_div {
+  padding-bottom: 1.25rem;
+}
+
+.ancla {
+  text-decoration: none;
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.icon-contacto {
+  width: 20px;
+  margin-right: 0.8rem;
+}
+
+.footer_horario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_horario p {
+  font-size: 2rem;
+}
+
+.footer_rss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+.iconFooter {
+  display: flex;
+  align-items: center;
+}
+
+.footer_rss img {
+  width: 50px;
+  margin: 5px 10px;
+}
+
+.seccion2 {
+  background-color: var(--primary-color);
+}
+
+.derechos {
+  color: #fff;
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 1.2rem 0;
+}
+
+@media screen and (max-width:900px) {
+  .footer_encabezado {
+    font-size: 2rem;
+  }
+
+  .ancla {
+    font-size: 1.6rem;
+  }
+
+  .footer_horario p {
+    font-size: 1.6rem;
+  }
+
+  .footer_rss img {
+    width: 35px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .footer_datos {
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 0;
+  }
+
+  .derechos {
+    padding: 2rem 0;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,73 @@
+.menus {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.main-icon {
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  justify-content: center;
+  position: relative;
+  z-index: 1000;
+}
+
+.main-icon::before {
+  color: white;
+  content: attr(data-nr);
+  display: block;
+  font-size: 1rem;
+  left: 2rem;
+  position: absolute;
+  text-align: left;
+  top: 2rem;
+  width: 8rem;
+}
+
+.gg-menu {
+  transform: rotate(0deg);
+  transform: scale(var(--ggs,1));
+  transition: 0.5s;
+}
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+  background: currentColor;
+  border-radius: 0.05rem;
+  box-sizing: border-box;
+  display: block;
+  height: 0.4rem;
+  position: relative;
+  width: 3rem;
+}
+.gg-menu::after,
+.gg-menu::before {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+.gg-menu::after {
+  top: 1rem;
+}
+
+.gg-close {
+  background-color: white;
+  top: 0;
+  transform: rotate(135deg);
+  transition: 0.5s;
+}
+
+.gg-close::before,
+.gg-close::after {
+  background-color: white;
+  top: 0;
+  transform: rotate(90deg);
+}

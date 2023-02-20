@@ -1,0 +1,458 @@
+[
+  {
+    "id": 1,
+    "placeholder": ["25m²", "2 ambientes"],
+    "nombre": "2 ambientes",
+    "tipologia": "casaPack",
+    "usePrices": "casaPack",
+    "cantidadDePlantas": 1,
+    "porcentajeDeEntrega": 1,
+    "cantidadDeCuotas": 1,
+    "ambientes": {
+      "cantidadDeDormitorios": 1,
+      "cantidadDeBanos": 1,
+      "pergola": true
+    },
+    "superficies": {
+      "superficieCubierta": 25,
+      "superficieSemicubierta": null
+    },
+    "fichaTecnica": [
+      {
+        "name": "Superficie total",
+        "valor": 25,
+        "placeholder": "25m²"
+      },
+      {
+        "name": "Superficie cubierta",
+        "valor": 25,
+        "placeholder": "25m²"
+      },
+      {
+        "name": "Superficie semicubierta",
+        "valor": 0,
+        "placeholder": "—"
+      },
+      {
+        "name": "Ambientes",
+        "valor": 2,
+        "placeholder": "2"
+      },
+      {
+        "name": "Dormitorios",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Baños",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Pérgola",
+        "valor": false,
+        "placeholder": "—"
+      }
+    ],
+    "descripcion": "¡Construí tu primera casa! Esta es tu posibilidad para que puedas lograr mudarte a tu casa propia. Cuenta con el espacio para un dormitorio, cocina, comedor y baño. Vas a poder personalizarlo a tu manera  y que tu casa se haga realidad."
+  },
+  {
+    "id": 2,
+    "placeholder": ["32,41m²", "3 ambientes"],
+    "nombre": "3 ambientes",
+    "tipologia": "casaPack",
+    "usePrices": "casaPack",
+    "cantidadDePlantas": 1,
+    "porcentajeDeEntrega": 1,
+    "cantidadDeCuotas": 1,
+    "ambientes": {
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 1,
+      "pergola": false
+    },
+    "superficies": {
+      "superficieCubierta": 32.41,
+      "superficieSemicubierta": null
+    },
+    "fichaTecnica": [
+      {
+        "name": "Superficie total",
+        "valor": 32.41,
+        "placeholder": "32,41m²"
+      },
+      {
+        "name": "Superficie cubierta",
+        "valor": 32.41,
+        "placeholder": "32,41m²"
+      },
+      {
+        "name": "Superficie semicubierta",
+        "valor": 0,
+        "placeholder": "—"
+      },
+      {
+        "name": "Ambientes",
+        "valor": 3,
+        "placeholder": "3"
+      },
+      {
+        "name": "Dormitorios",
+        "valor": 2,
+        "placeholder": "2"
+      },
+      {
+        "name": "Baños",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Pérgola",
+        "valor": false,
+        "placeholder": "—"
+      }
+    ],
+    "descripcion": "¡Tu casa para tu familia YA! Si estás buscando una casa para mudarte con tu familia, empezar a compartir momentos únicos y disfrutar de tener tu casa propia, esta es tu oportunidad."
+  },
+  {
+    "id": 3,
+    "placeholder": ["36m²", "3 ambientes"],
+    "nombre": "3 ambientes",
+    "tipologia": "casaPack",
+    "usePrices": "casaPack",
+    "cantidadDePlantas": 1,
+    "porcentajeDeEntrega": 1,
+    "cantidadDeCuotas": 1,
+    "ambientes": {
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 1,
+      "pergola": false
+    },
+    "superficies": {
+      "superficieCubierta": 36,
+      "superficieSemicubierta": null
+    },
+    "fichaTecnica": [
+      {
+        "name": "Superficie total",
+        "valor": 36,
+        "placeholder": "36m²"
+      },
+      {
+        "name": "Superficie cubierta",
+        "valor": 36,
+        "placeholder": "36m²"
+      },
+      {
+        "name": "Superficie semicubierta",
+        "valor": 0,
+        "placeholder": "——"
+      },
+      {
+        "name": "Ambientes",
+        "valor": 3,
+        "placeholder": "3"
+      },
+      {
+        "name": "Dormitorios",
+        "valor": 2,
+        "placeholder": "2"
+      },
+      {
+        "name": "Baños",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Pérgola",
+        "valor": false,
+        "placeholder": "—"
+      }
+    ],
+    "descripcion": "¡La OPORTUNIDAD de tener tu nueva CASA! Este modelo posee espacio para 2 habitaciones, cocina, comedor y baño. Cada uno de ellos, los vas a poder construir a tu manera, para que tu nueva casa sea lo que siempre soñaste."
+  },
+  {
+    "id": 4,
+    "placeholder": ["39,38m²", "4 ambientes"],
+    "nombre": "4 ambientes",
+    "tipologia": "casaPack",
+    "usePrices": "casaPack",
+    "cantidadDePlantas": 1,
+    "porcentajeDeEntrega": 1,
+    "cantidadDeCuotas": 1,
+    "ambientes": {
+      "cantidadDeDormitorios": 3,
+      "cantidadDeBanos": 1,
+      "pergola": true
+    },
+    "superficies": {
+      "superficieCubierta": 39.38,
+      "superficieSemicubierta": null
+    },
+    "fichaTecnica": [
+      {
+        "name": "Superficie total",
+        "valor": 39.38,
+        "placeholder": "38,38m²"
+      },
+      {
+        "name": "Superficie cubierta",
+        "valor": 39.38,
+        "placeholder": "39,38m²"
+      },
+      {
+        "name": "Superficie semicubierta",
+        "valor": 0,
+        "placeholder": "—"
+      },
+      {
+        "name": "Ambientes",
+        "valor": 4,
+        "placeholder": "4"
+      },
+      {
+        "name": "Dormitorios",
+        "valor": 3,
+        "placeholder": "3"
+      },
+      {
+        "name": "Baños",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Pérgola",
+        "valor": false,
+        "placeholder": "—"
+      }
+    ],
+    "descripcion": "Este modelo cuenta con el espacio para 3 dormitorios, donde cada uno puede tener su lugar especial en la nueva casa. Además, posee amplios espacios para compartir momentos únicos."
+  },
+  {
+    "id": 2030,
+    "placeholder": ["Minimalista", "2 ambientes"],
+    "nombre": "Modelo 2030",
+    "tipologia": "casaPro",
+    "usePrices": "casaMix",
+    "cantidadDePlantas": 1,
+    "porcentajeDeEntrega": 1,
+    "cantidadDeCuotas": 1,
+    "ambientes": {
+      "cantidadDeDormitorios": 1,
+      "cantidadDeBanos": 1,
+      "pergola": true
+    },
+    "superficies": {
+      "superficieCubierta": 25.05,
+      "superficieSemicubierta": 18
+    },
+    "fichaTecnica": [
+      {
+        "name": "Superficie total",
+        "valor": 43.05,
+        "placeholder": "43,05m²"
+      },
+      {
+        "name": "Superficie cubierta",
+        "valor": 25.05,
+        "placeholder": "25,05m²"
+      },
+      {
+        "name": "Superficie semicubierta",
+        "valor": 18,
+        "placeholder": "18m²"
+      },
+      {
+        "name": "Ambientes",
+        "valor": 2,
+        "placeholder": "2"
+      },
+      {
+        "name": "Dormitorios",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Baños",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Pérgola",
+        "valor": true,
+        "placeholder": "Sí"
+      }
+    ],
+    "descripcion": "¿Estás buscando independizarte? ¿Mudarte con tu pareja? ¿O tener tu primera casa propia? Este modelo cuenta con todas las comodidades para que puedas disfrutar de tu espacio propio, personalizarlo y convertirlo en tu lugar favorito."
+  },
+  {
+    "id": 2000,
+    "placeholder": ["Minimalista", "3 ambientes"],
+    "nombre": "Modelo 2000",
+    "tipologia": "casaPro",
+    "usePrices": "casaPro",
+    "cantidadDePlantas": 1,
+    "porcentajeDeEntrega": 1,
+    "cantidadDeCuotas": 1,
+    "ambientes": {
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 1,
+      "pergola": true
+    },
+    "superficies": {
+      "superficieCubierta": 30,
+      "superficieSemicubierta": 18
+    },
+    "fichaTecnica": [
+      {
+        "name": "Superficie total",
+        "valor": 48,
+        "placeholder": "48m²"
+      },
+      {
+        "name": "Superficie cubierta",
+        "valor": 30,
+        "placeholder": "30m²"
+      },
+      {
+        "name": "Superficie semicubierta",
+        "valor": 18,
+        "placeholder": "18m²"
+      },
+      {
+        "name": "Ambientes",
+        "valor": 3,
+        "placeholder": "3"
+      },
+      {
+        "name": "Dormitorios",
+        "valor": 2,
+        "placeholder": "2"
+      },
+      {
+        "name": "Baños",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Pérgola",
+        "valor": true,
+        "placeholder": "Sí"
+      }
+    ],
+    "descripcion": "¿Estás buscando una casa para mudarte con tu familia? ¡Conocé más de este modelo! Posee espacios integrados para compartir en familia. Fue diseñado con una pérgola para disfrutar del exterior, la parrilla, y reuniones con amigos."
+  },
+  {
+    "id": 2040,
+    "placeholder": ["Moderna", "3 ambientes"],
+    "nombre": "Modelo 2040",
+    "tipologia": "casaPro",
+    "usePrices": "casaMix",
+    "cantidadDePlantas": 1,
+    "porcentajeDeEntrega": 1,
+    "cantidadDeCuotas": 1,
+    "ambientes": {
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 1,
+      "pergola": true
+    },
+    "superficies": {
+      "superficieCubierta": 44,
+      "superficieSemicubierta": 18
+    },
+    "fichaTecnica": [
+      {
+        "name": "Superficie total",
+        "valor": 62,
+        "placeholder": "62m²"
+      },
+      {
+        "name": "Superficie cubierta",
+        "valor": 44,
+        "placeholder": "44m²"
+      },
+      {
+        "name": "Superficie semicubierta",
+        "valor": 18,
+        "placeholder": "18m²"
+      },
+      {
+        "name": "Ambientes",
+        "valor": 3,
+        "placeholder": "3"
+      },
+      {
+        "name": "Dormitorios",
+        "valor": 2,
+        "placeholder": "2"
+      },
+      {
+        "name": "Baños",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Pérgola",
+        "valor": true,
+        "placeholder": "Sí"
+      }
+    ],
+    "descripcion": "La casa de tu familia, para toda la vida. Cuenta con 2 habitaciones para que cada uno tenga su lugar único en la casa; además, posee una sala acogedora para pasar tiempo juntos y la mejor cocina para disfrutar de las mejores tradiciones."
+  },
+  {
+    "id": 2050,
+    "placeholder": ["Moderna", "4 ambientes"],
+    "nombre": "Modelo 2050",
+    "tipologia": "casaPro",
+    "usePrices": "casaMix",
+    "cantidadDePlantas": 1,
+    "porcentajeDeEntrega": 1,
+    "cantidadDeCuotas": 1,
+    "ambientes": {
+      "cantidadDeDormitorios": 3,
+      "cantidadDeBanos": 1,
+      "pergola": true
+    },
+    "superficies": {
+      "superficieCubierta": 51,
+      "superficieSemicubierta": 18
+    },
+    "fichaTecnica": [
+      {
+        "name": "Superficie total",
+        "valor": 69,
+        "placeholder": "69m²"
+      },
+      {
+        "name": "Superficie cubierta",
+        "valor": 51,
+        "placeholder": "51m²"
+      },
+      {
+        "name": "Superficie semicubierta",
+        "valor": 18,
+        "placeholder": "18m²"
+      },
+      {
+        "name": "Ambientes",
+        "valor": 4,
+        "placeholder": "4"
+      },
+      {
+        "name": "Dormitorios",
+        "valor": 3,
+        "placeholder": "3"
+      },
+      {
+        "name": "Baños",
+        "valor": 1,
+        "placeholder": "1"
+      },
+      {
+        "name": "Pérgola",
+        "valor": true,
+        "placeholder": "Sí"
+      }
+    ],
+    "descripcion": "¿Estás buscando una casa para toda tu familia? Este modelo posee amplios espacios de encuentro, para disfrutar entre todos. Cuenta con 3 dormitorios para que cada uno tenga su espacio personalizado y puedan sentir la nueva casa como su lugar en el mundo."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "numeroDePromo": 1,
+    "messageCaption": "<p>La casa <br /><strong>del millón</strong></p>",
+    "precio": 1000000,
+    "messageCallToAction": "<p>¡No te pierdas<br/> esta oportunidad!</p>",
+    "image": {
+      "src": "/promos/promo-1/promo_1_card.webp",
+      "alt": "casa del millon"
+    },
+    "background": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "numeroDePromo": 2,
+    "messageCaption": "<div class=\"text-tu-casa-propia\"><p>TU CASA PROPIA, TU </p><img src=\"/icons/Logo blanco.svg\" /></div>",
+    "precio": 700000,
+    "messageCallToAction": "<p>¡Entrega<br/> inmediata!</p>",
+    "image": {
+      "src": "/promos/promo-2/promo_2_card.webp",
+      "alt": "casa propia"
+    },
+    "background": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "numeroDePromo": 3,
+    "precio": 1899000,
+    "messageCallToAction": "<p>¡Conocé más<br/>sobre esta promo!</p>",
+    "messageCaption": "<div class=\"text-tres-por-uno\"><p  class=\"text-tres-por-uno__leyenda\"><strong class=\"text-tres-por-uno__leyenda\">3X1 </strong>|</p><p class=\"text-tres-por-uno__leyenda2\">LLEVÁ <strong>TRES CASAS</strong><br /> AL PRECIO <strong>DE UNA</strong></p></div>",
+    "image": {
+      "src": "/promos/promo-3/promo_3_card.webp",
+      "alt": "3x1"
+    },
+    "background": {
+      "src": "",
+      "alt": ""
+    }
+  }
+]
