@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/casa-ya_website/static/css/main.aee19baa.css",
+    "main.js": "/casa-ya_website/static/js/main.1a7342cf.js",
+    "static/js/787.0553c397.chunk.js": "/casa-ya_website/static/js/787.0553c397.chunk.js",
+    "static/media/fondo-comments.webp": "/casa-ya_website/static/media/fondo-comments.555e56f847f57fbf9b83.webp",
+    "static/media/fondo-promos.webp": "/casa-ya_website/static/media/fondo-promos.aa65ee7b2f7e32dc09e6.webp",
+    "index.html": "/casa-ya_website/index.html",
+    "static/media/house.svg": "/casa-ya_website/static/media/house.11c23f8a94b43e35f0ed.svg",
+    "main.aee19baa.css.map": "/casa-ya_website/static/css/main.aee19baa.css.map",
+    "main.1a7342cf.js.map": "/casa-ya_website/static/js/main.1a7342cf.js.map",
+    "787.0553c397.chunk.js.map": "/casa-ya_website/static/js/787.0553c397.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aee19baa.css",
+    "static/js/main.1a7342cf.js"
+  ]
+}
